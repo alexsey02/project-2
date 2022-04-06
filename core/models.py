@@ -2,6 +2,7 @@ import email
 from pyexpat import model
 from unicodedata import name
 from django.db import models
+from django.contrib.auth import get_user_model
 from django.contrib.auth.models import AbstractBaseUser,BaseUserManager,PermissionsMixin
 
 class UserManager(BaseUserManager):
